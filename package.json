@@ -1,0 +1,21 @@
+{
+  "name": "katandb-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/KatanDbClient.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha ./test/**/*.specs.js"
+  },
+  "author": "Nadav Dav",
+  "license": "MIT",
+  "devDependencies": {
+    "hamjest": "^2.13.0",
+    "katandb": "git+https://github.com/nadav-dav/KatanDB.git",
+    "mocha": "^3.1.2",
+    "request": "^2.75.0"
+  },
+  "dependencies": {
+    "browser-request": "^0.3.3"
+  }
+}
